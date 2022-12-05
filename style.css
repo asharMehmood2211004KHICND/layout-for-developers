@@ -1,6 +1,14 @@
 nav{
-    border: 1px solid green;
-    height: 40px;
+    border: 4px solid purple;
+    height: 80px;
+    
+
+
+}
+
+.nav-bar-list{
+    display: flex;
+    flex-direction: row;
 }
 
 .Content{
