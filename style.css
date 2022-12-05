@@ -20,13 +20,29 @@ nav{
 
 }
 
-.Left{
+
+.left-content{
     border : 3px solid green;
     flex: 1;
-   /* border-bottom: none;*/
+    /* display: flex;
+    flex-direction: row;    */
+    /* border : 3px solid blue; */
 
+    display: flex;
+    /* align-items: flex-start; */
 
 }
+
+
+.left-list-item-first{
+    list-style-type:none;
+    /* border :2px solid pink; */
+    display: flex;
+    align-items: row;
+    align-items: flex-start;
+    
+}
+
 
 .Center{
     border : 3px solid blue;
@@ -41,4 +57,27 @@ nav{
     flex: 1;
     /* border-bottom: none;*/
 
+}
+
+/* .left-content{
+    border: 1px solid red;
+
+} */
+
+
+
+.left-list-item-first{
+    list-style-type:none;
+    /* border :2px solid pink; */
+    display: flex;
+    align-items: row;
+    align-items: flex-start
+}
+
+.center-list-item{
+    list-style-type:none;
+    /* border :2px solid pink; */
+    display: flex;
+    align-items: row;
+    align-items: flex-start
 }
