@@ -7,9 +7,38 @@ nav{
 }
 
 .nav-bar-list{
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.nav-bar-list-left{
+    /* border: 1px solid yellowgreen; */
     display: flex;
     flex-direction: row;
 }
+
+.nav-bar-list-left i,p{
+    padding: 5px;
+}
+
+
+
+.nav-bar-list-right{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 10; */
+}
+
+.nav-bar-list-right i {
+    padding-left: 25px;
+}
+
+
 
 .Content{
     border: 1px solid red;
